@@ -165,7 +165,7 @@ variable "vpc_chamber_parameter_name" {
   default = "/%s/%s_%s"
 }
 
-variable "vpc_paramter_prefix" {
+variable "vpc_parameter_prefix" {
   default     = "vpc_common"
   description = "parameter name prefix to use when looking up VPC parameters in chamber"
 }

@@ -25,7 +25,7 @@ Limits access to users within the VPC to users granted access by an IAM policy.
   - the endpoints are created in the AZs mapped to your private subnets
 - MWAA binds an IP address from your private subnet to the interface endpoint
 
-### Managing access to VPC endpoings on MWAA
+### Managing access to VPC endpoints on MWAA
 
 MWAA creates a VPC endpoint in each of the private subnets.
 

@@ -535,7 +535,7 @@ cluster to all of the Availability Zones in which the VPC has private subnets.
 
 Previously, this module created a separate Fargate Pod Execution Role for each Fargate Profile it created. This is
 unnecessary, excessive, and can cause problems due to name collisions, but is otherwise merely inefficient, so it is not
-important to fix this on existiong, working clusters. This update brings a feature that causes the module to create at
+important to fix this on existing, working clusters. This update brings a feature that causes the module to create at
 most 1 Fargate Pod Execution Role per cluster.
 
 **This change is recommended for all NEW clusters, but only NEW clusters**. Because it is a breaking change, it is not

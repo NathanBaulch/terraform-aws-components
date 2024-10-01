@@ -14,7 +14,7 @@ variable "admin_delegated" {
   DOC
 }
 
-variable "delegated_admininstrator_component_name" {
+variable "delegated_administrator_component_name" {
   type        = string
   default     = "macie/delegated-administrator"
   description = "The name of the component that created the Macie account."

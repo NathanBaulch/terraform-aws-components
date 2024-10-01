@@ -154,14 +154,14 @@ https://github.com/hashicorp/terraform-provider-aws/issues/6749
 Instead, promote the Replicate cluster with the AWS CLI command:
 `aws rds promote-read-replica-db-cluster --db-cluster-identifier <identifier>`
 
-After promoting the replica, update the stack configuration to prevent future Terrafrom runs from re-enabling
+After promoting the replica, update the stack configuration to prevent future Terraform runs from re-enabling
 replication. In this example, modify `stacks/catalog/aurora-mysql/replica/defaults.yaml`
 
 ```yaml
 is_promoted_read_replica: true
 ```
 
-Reploying the component should show no changes. For example,
+Redeploying the component should show no changes. For example,
 `atmos terraform apply aurora-mysql/dev -s platform-use2-dev`
 
 <!-- prettier-ignore-start -->

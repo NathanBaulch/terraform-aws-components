@@ -285,7 +285,7 @@ atmos terraform apply spacelift --stack core-gbl-auto -target 'module.spacelift.
 ```
 
 Note that this is the only manually operation you need to perform in `geodesic` using `atmos` to create the initial admin stack.
-All other infrastructure stacks wil be created in Spacelift by this admin stack.
+All other infrastructure stacks will be created in Spacelift by this admin stack.
 
 
 ## Pull Request Workflow

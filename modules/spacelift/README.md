@@ -309,7 +309,7 @@ components:
     	input.pull_request.labels[_] = "spacelift-no-trigger"
     }
 
-    # Ignore if the PR is a draft and deesnt have a `spacelift-trigger` label
+    # Ignore if the PR is a draft and doesn't have a `spacelift-trigger` label
     ignore {
     	input.pull_request.draft
     	not has_spacelift_trigger_label
